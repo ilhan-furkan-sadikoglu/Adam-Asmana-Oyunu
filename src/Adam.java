@@ -60,10 +60,10 @@ public class Adam extends JFrame{
 
     public String kelimesec(){
         Random rand = new Random();
-        int i = rand.nextInt(5);
+        int i = rand.nextInt(6);
         switch (i){
             case 1:
-               return "aziz bektas";
+               return "Istanbul";
             case 2:
                 return "ilhan sadikoglu";
             case 3:
@@ -73,7 +73,7 @@ public class Adam extends JFrame{
             case 5:
                 return "turkiye";
             default:
-                return "aziz bektas";
+                return "Fenerbahce";
 
         }
     }
